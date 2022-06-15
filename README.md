@@ -30,3 +30,16 @@
 > > 绑定 delete、get、head、options、post、put、patch 等方法
 > >
 > > 同时还有 postForm、putForm、patchForm 等方法
+
+## InterceptorManager.js
+
+> 拦截器构造函数实现
+>
+> 采用数组的存储 拦截器，同时对请求拦截器支持 runWhen 和 synchronous 参数
+> use 添加拦截器
+>
+> eject 清除一个拦截器
+>
+> clear 清空所有拦截器
+>
+> forEach 遍历拦截器
